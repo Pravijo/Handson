@@ -1,0 +1,21 @@
+a = []
+a.insert(0,11)
+a.insert(1,22)
+a.insert(2,33)
+a.insert(3,44)
+a.insert(4,55)
+a.append(66)
+
+
+print("the number at 4th index is: ",a[4])
+print("numbers after 4th index are:",a[4:])
+print(a)
+print(a.reverse())
+print(a)
+print(a[-5:])
+print(a[5::-2])
+print(a[1::])
+print(a[1:4:-2])
+print(a)
+print(a[6:0:-1])
+print(a)
